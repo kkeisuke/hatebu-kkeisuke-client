@@ -1,0 +1,23 @@
+{
+  "name": "hatebu-kkeisuke-client",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "hugo server -F -D",
+    "build": "webpack"
+  },
+  "author": "kkeisuke",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.7.0",
+    "css-loader": "^0.28.11",
+    "style-loader": "^0.21.0",
+    "webpack": "^4.12.0",
+    "webpack-cli": "^3.0.8"
+  },
+  "dependencies": {
+    "bootstrap": "^4.1.1"
+  }
+}

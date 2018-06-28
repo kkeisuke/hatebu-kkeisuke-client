@@ -1,3 +1,6 @@
-baseURL = "http://example.org/"
-languageCode = "en-us"
-title = "My New Hugo Site"
+baseURL = "https://hatebu.kkeisuke.com/"
+languageCode = "ja"
+title = "kkeisuke's はてなブックマーク"
+
+[blackfriday]
+  hrefTargetBlank = true

@@ -1,0 +1,9 @@
+{{ define "main" }}
+  <ul class="list-group list-group-flush">
+    {{ range .Pages }}
+      <li class="list-group-item">
+        <a href="{{ .Permalink }}">{{ .Title }}</a>　<span class="badge badge-info">{{ .Description }}</span>
+      </li>
+    {{ end }}
+  </ul>
+{{ end }}

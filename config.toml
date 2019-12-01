@@ -4,3 +4,6 @@ title = "kkeisuke's はてなブックマーク"
 
 [blackfriday]
   hrefTargetBlank = true
+
+[outputs]
+  home = ['HTML', 'JSON']

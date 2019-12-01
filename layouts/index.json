@@ -1,0 +1,7 @@
+{{ $.Scratch.Add "contents" slice }}
+
+{{- range first 730 .Site.RegularPages -}}
+  {{- $.Scratch.Add "contents" (dict "title" .Title "content" .Content) -}}
+{{- end -}}
+
+{ "contents": {{ $.Scratch.Get "contents" | jsonify }} }

@@ -1,3 +1,15 @@
+/* markdown 内 */
+h4 {
+  margin-bottom: 10px;
+}
+h4 + p {
+  margin-bottom: 30px;
+}
+h4 + p:last-child {
+  margin-bottom: 0;
+}
+/* markdown 内 */
+
 a {
   word-wrap: break-word;
 }

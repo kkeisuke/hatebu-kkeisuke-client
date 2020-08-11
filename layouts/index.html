@@ -3,11 +3,8 @@
   <div class="row">
     <div class="col col-md-8 col-lg-9">
       {{ range first 7 .Site.RegularPages }}
-        <div class="card mb-3 mb-md-5">
-          <h3 class="card-header">{{ .Title }}</h3>
-          <div class="card-body">
-            {{ .Content }}
-          </div>
+        <div class="mb-3 mb-md-5">
+          {{ .Render "content" }}
         </div>
       {{ end }}
     </div>

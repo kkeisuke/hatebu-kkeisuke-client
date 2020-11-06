@@ -2,5 +2,8 @@ baseURL = "https://hatebu.kkeisuke.com/"
 languageCode = "ja"
 title = "kkeisuke's はてなブックマーク"
 
-[blackfriday]
-  hrefTargetBlank = true
+[markup]
+  defaultMarkdownHandler = "blackfriday"
+  [markup.blackfriday]
+    hrefTargetBlank = true
+    noreferrerLinks = true

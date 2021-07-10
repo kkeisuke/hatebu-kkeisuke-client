@@ -2,6 +2,9 @@
   "name": "hatebu-kkeisuke-client",
   "version": "1.0.0",
   "description": "",
+  "engines": {
+    "node": "14.17.3"
+  },
   "scripts": {
     "start": "webpack && hugo server -F -D",
     "build": "webpack & hugo"

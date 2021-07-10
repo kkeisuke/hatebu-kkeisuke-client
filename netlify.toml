@@ -1,6 +1,6 @@
 [build]
 publish = "public"
-command = "webpack & hugo --gc --minify"
+command = "npm run build"
 
 [context.production.environment]
 HUGO_VERSION = "0.85.0"

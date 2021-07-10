@@ -7,7 +7,7 @@
   },
   "scripts": {
     "start": "webpack && hugo server -F -D",
-    "build": "webpack & hugo --gc --minify"
+    "build": "webpack && hugo --gc --minify"
   },
   "author": "kkeisuke",
   "license": "MIT",

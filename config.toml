@@ -7,3 +7,6 @@ title = "kkeisuke's はてなブックマーク"
   [markup.blackfriday]
     hrefTargetBlank = true
     noreferrerLinks = true
+
+[minify]
+  disableJS = true # 0.85 から無いと minify で error になる
